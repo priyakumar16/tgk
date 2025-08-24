@@ -3,6 +3,8 @@ import fLogo from './assets/flogo.svg'
 import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import heroshape from './assets/hero-shape.webp'
+import footerBg from "./assets/footer-bg.png";
+
 
 
 export default function Footer() {
@@ -36,7 +38,7 @@ export default function Footer() {
           </div>
     </div>
     
-    <footer className="mx-auto relative text-white py-16 overflow-hidden">
+    <footer className="mx-auto relative text-white py-16 overflow-hidden" style={{ backgroundImage: `url(${footerBg})` }} >
       
       {/* Bubbles */}
       <div className="absolute inset-0 overflow-hidden">
