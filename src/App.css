@@ -1,0 +1,70 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@theme {
+  --color-primary: #755dff; 
+  --color-secondary: #f7b4b5;
+  --color-third: #7A7A7A;
+  --color-fourth: #d1e7c2;
+  --color-para:#555555c4;
+  
+}
+@theme {
+  --font-display: "Poppins", sans-serif; 
+  --font-body: "DM+Sans", sans-serif; 
+  --font-menu:"Nunito",  sans-serif; 
+  --font-all: "Kanit", sans-serif;
+  --font-questrial: "Questrial", sans-serif;
+}
+
+@layer utilities {
+  @keyframes spinEase {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .animate-spin-ease {
+    animation: spinEase 10s ease-in-out infinite 1s;
+  }
+}
+
+.menu a {font-family: "Kanit", sans-serif; font-weight: 400;    padding-right: 20px;}
+.hero-sec p{font-weight: 400;}
+ 
+.container{padding-left: 30px; padding-right: 30px;}
+ .hero{background-image: url(src/assets/banner.jpg); height: 100vh; background-position: center; background-repeat: no-repeat; background-size: cover;}
+
+ #work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group:hover img {
+  transform: scale(1.1);
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'prev';
+    font-size: 10px!important;
+    background-color: var(--color-fourth);
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+footer {background-image: url(src/assets/footer-bg.png); background-position: top; background-size: cover;}
+:focus-visible {
+    outline: none;
+}
+.fmenu li {
+    line-height: 30px;
+}
