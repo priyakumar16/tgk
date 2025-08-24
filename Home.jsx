@@ -7,7 +7,7 @@ import heroshape from './src/assets/hero-shape.webp'
 import heroshapetwo from './src/assets/hero-shape-2.webp'
 import star from './src/assets/hero-shape-3.webp'
 import Howwework from './src/component/howwework';
-import Services from './src/pages/Services';
+import Services from './src/pages/Services.jsx';
 import Work from './src/component/work';
 import Footer from './src/Footer';
 
