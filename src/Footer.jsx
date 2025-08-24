@@ -3,7 +3,7 @@ import fLogo from './assets/flogo.svg'
 import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import heroshape from './assets/hero-shape.webp'
-import footerBg from "./assets/footer-bg.png";
+import footerBg from './assets/footer-bg.png';
 
 
 
