@@ -39,7 +39,7 @@
 .hero-sec p{font-weight: 400;}
  
 .container{padding-left: 30px; padding-right: 30px;}
- .hero{background-image: url(src/assets/banner.jpg); height: 100vh; background-position: center; background-repeat: no-repeat; background-size: cover;}
+ .hero{background-image: url(./src/assets/banner.jpg); height: 100vh; background-position: center; background-repeat: no-repeat; background-size: cover;}
 
  #work {
   display: flex;
